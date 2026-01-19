@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/reg">
+        <h2>Регистрация</h2>
+        <span>Уже есть аккаунт?</span>
+        <a href="/login">Войти</a>
+        <div>
+            <input type="text" name="company" placeholder="Название компании">
+            <input type="text" name="firstname" placeholder="Имя">
+            <input type="text" name="secondname" placeholder="Фамилия">
+            <input type="email" name="email" placeholder="E-mail">
+            <button type="submit">Зарегистрироваться</button>
+            <input type="checkbox" name="policy" id="policyField">
+            <label for="policyField">Я прочитал и принимаю <a href="/file.pdf">Условия пользования</a></label>
+        </div>
+    </form>
+</body>
+</html>
